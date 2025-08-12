@@ -24,7 +24,7 @@ We intentionally **ignore word prediction** due to higher computational requirem
 
 ---
 
-## ⚙ Model Training
+##  Model Training
 - **Base Model:** YOLO fine-tuned on our custom dataset
 - **Loss Graphs:** Included to show training progress and demonstrate how overfitting was avoided
 - **Best Weights:** Saved in the repository for reuse
@@ -41,7 +41,7 @@ We intentionally **ignore word prediction** due to higher computational requirem
 - **Letter Selection:** Picks the **most confident letter** from each batch of 5 frames for stability
 - **Video Demo:**  
 
-![Demo GIF](images/demo.gif)  
+![Demo GIF](video/demo.gif)  
 
 ---
 
@@ -54,7 +54,7 @@ We intentionally **ignore word prediction** due to higher computational requirem
 
 ---
 
-## 🔮 Future Features
+##  Future Features
 We plan to enhance this project with:
 1. **Word & Sentence Detection** – Expanding dataset and model to recognize full words and sentences.
 2. **Mobile Deployment** – Optimizing YOLO for Android/iOS devices.
